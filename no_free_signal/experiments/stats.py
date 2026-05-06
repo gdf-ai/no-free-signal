@@ -275,7 +275,7 @@ PAIRWISE_COMPARISONS = (
     ("D", "E", "full LLM vs scrambled bins"),
     ("D", "A", "full stack vs mute"),
     ("D", "C", "any emission vs no-emitter"),
-    ("D", "G", "LLM vs matched-cadence noise"),
+    ("D", "G", "LLM vs cadence-targeted noise"),
     ("G", "C", "noise emission vs no-emitter"),
     ("F", "G", "replayed LLM vs uniform noise"),
 )
