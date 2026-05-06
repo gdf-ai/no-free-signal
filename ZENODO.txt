@@ -1,0 +1,174 @@
+==============================================================================
+ZENODO DEPOSIT METADATA
+==============================================================================
+
+TITLE
+-----
+No Free Signal: A Negative Result for Substrate-Evolution Around Fixed LLMs
+in an Embodied Multi-Agent Population
+
+AUTHORS
+-------
+Sterling Morrison
+  Affiliation: Independent Researcher, Generative Development Framework
+               (GDF), GDF.ai
+  ORCID:       (add if available)
+
+RESOURCE TYPE
+-------------
+Software (with paper, code, and data; recommended primary type "Software"
+for DOI usage in code citations; alternative "Publication: Article" if you
+prefer the paper as the primary artifact).
+
+LICENSE
+-------
+MIT
+
+VERSION
+-------
+0.3.0
+
+PUBLICATION DATE
+----------------
+2026-05-06
+
+LANGUAGE
+--------
+en
+
+==============================================================================
+DESCRIPTION
+==============================================================================
+
+This deposit contains the full reproducibility artifact for the paper
+*No Free Signal: A Negative Result for Substrate-Evolution Around Fixed
+LLMs in an Embodied Multi-Agent Population*: the manuscript (PDF, DOCX,
+Markdown), the experimental harness, the analysis code, and the canonical
+fitness dataset.
+
+We test whether a fixed, non-fine-tuned large language model (Amazon Nova
+Lite) can become adaptively useful in a 25-creature embodied multi-agent
+population when selection pressure acts on the heritable communication
+substrate around the model — production bias, perception attention,
+emission gating — rather than on the model's own weights. The seven-arm
+design isolates the contributions of substrate evolution, LLM presence,
+LLM context-sensitivity, and emission shape, with matched controls
+including a mute baseline, a no-emitter baseline, a frozen-substrate-with-
+LLM control, a scrambled-LLM ablation, a replay-randomized LLM ablation,
+and a no-LLM uniform-noise emitter at approximately matched cadence. Each
+arm is run on 20 paired seeds for 15,000 ticks, yielding 140 controlled
+runs.
+
+The substrate-evolution hypothesis is not supported by these data. The
+full-stack treatment did not outperform the frozen-substrate LLM baseline,
+the mute control, the replay-randomized LLM, the scrambled LLM, or the
+cadence-targeted random-emitter control. Among the four evolvable
+emission-bearing arms (D, E, F, G), population AUC was statistically
+indistinguishable; the cleanest internal contrast (F vs G, same substrate,
+differing only on emission-source identity) gave a coin flip with Cohen's
+d ≈ 0.00. No LLM-vs-control comparison crosses the 95% threshold under a
+paired-seed bootstrap. The substrate-only no-emitter arm is descriptively
+lowest, but the C-vs-emission contrasts are not statistically resolved at
+n=20.
+
+A complementary behavioral receiver-response analysis on a separately
+instrumented run shows that emission *source* does affect local receiver
+behavior even when fitness outcomes are equal: random-noise emissions
+produce more flee-like movement after a heard event than LLM-shaped
+emissions on the same metric, with effects modest in magnitude (~0.1–0.2
+predator-distance units per heard event). Population-level fitness can
+therefore hide behavioral discrimination between fitness-equivalent
+emission sources.
+
+Methodological contribution: matched-noise and semantics-broken controls
+reveal whether claimed LLM-agent fitness gains arise from model
+intelligence or from persistent signaling channels coupled to adaptive
+scaffolding. Receiver-response analysis split by self-hearing vs non-self
+disentangles social communication from self-feedback. We argue that
+LLM-agent comparisons should be supplemented with (a) approximately
+cadence-matched noise controls, (b) per-event receiver-response analysis,
+and (c) explicit reporting of effect-size magnitudes alongside
+null-hypothesis tests.
+
+Archive contents:
+- Manuscript: REPORT.pdf, REPORT.docx, REPORT.md
+- Raw fitness data: 140 JSONL files (~24 MB), the canonical uninstrumented
+  dataset for all population-fitness claims
+- Behavioral analysis output: behavior_results.json. Raw behavioral
+  JSONL files (~22 GB) are not deposited due to size limits but are
+  re-derivable from the bootstrap commands in the reproducibility
+  appendix
+- Experiment harness: no_free_signal/ package and foresight/ simulation
+  engine
+- Audit gate: validate_canonical.py
+- Determinism check: compare_determinism.py
+
+Code repository: https://github.com/gdf-ai/no-free-signal
+
+==============================================================================
+KEYWORDS — CSV
+==============================================================================
+keyword,relevance
+"large language models",core
+"LLM agents",core
+"multi-agent systems",core
+"emergent communication",core
+"substrate evolution",core
+"agent-based modeling",core
+"embodied agents",core
+"evolutionary computation",core
+"matched-emission controls",core
+"negative results",core
+"receiver-response analysis",methods
+"paired-seed bootstrap",methods
+"reproducibility",methods
+"signal cadence",methods
+"frozen LLM",methods
+"semantic ablation",methods
+"AWS Bedrock",infra
+"Amazon Nova Lite",infra
+"Python",infra
+"PyTorch",infra
+"agent communication",applied
+"animal communication signaling",applied
+"selection pressure",applied
+"predator-prey dynamics",applied
+
+==============================================================================
+SUBJECTS — CSV (term, scheme, identifier)
+==============================================================================
+term,scheme,identifier
+"Multiagent Systems",arXiv,cs.MA
+"Artificial Intelligence",arXiv,cs.AI
+"Machine Learning",arXiv,cs.LG
+"Neural and Evolutionary Computing",arXiv,cs.NE
+"Computation and Language",arXiv,cs.CL
+"Computer and information sciences",FOS,1.2
+"Computer Sciences",DDC,004
+"Computing methodologies — Multi-agent systems",ACM-CCS,10010147.10010178.10010205
+"Computing methodologies — Artificial intelligence",ACM-CCS,10010147.10010178
+"Computing methodologies — Evolutionary algorithms",ACM-CCS,10010147.10010178.10010187
+"Computing methodologies — Reinforcement learning",ACM-CCS,10010147.10010178.10010179.10010182
+
+==============================================================================
+RELATED IDENTIFIERS — CSV
+==============================================================================
+relation,identifier_type,identifier
+"isSupplementTo",URL,"https://github.com/gdf-ai/no-free-signal"
+"isDerivedFrom",URL,"https://github.com/gdf-ai/no-free-signal/tree/main/results_15k_fitness"
+"references",URL,"https://aws.amazon.com/bedrock/"
+
+==============================================================================
+NOTES
+==============================================================================
+- Recommended Zenodo "Communities" to deposit into: AI/ML, Open Science,
+  Reproducibility (free-text search the Zenodo Communities directory).
+- The 22 GB of raw behavioral JSONL files are not deposited because they
+  exceed Zenodo's recommended single-deposit size; they are re-derivable
+  by running the harness with --log-behavioral on the same code+seeds
+  documented in the reproducibility appendix.
+- The included `behavior_results.json` is the analyzed output that the
+  paper's behavioral tables are computed from.
+- Funding: list GDF.ai as the funder/sponsor if applicable; otherwise
+  leave the funding section blank.
+==============================================================================
