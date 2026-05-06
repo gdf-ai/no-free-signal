@@ -257,7 +257,7 @@ def main() -> int:
         print(f"NOTE: throttle activity (429s/retries) seen in arms: "
               f"{', '.join(nonzero_throttle_arms)}. The retries kept the "
               f"run going but if 429s keep climbing on future runs, lower "
-              f"LAMDIS_BEDROCK_RPS below 13.")
+              f"NFS_BEDROCK_RPS below 13.")
     return 0
 
 

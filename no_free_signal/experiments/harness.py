@@ -152,13 +152,13 @@ def run_one(
         raise ValueError(f"unknown arm {arm!r}; expected one of {ARMS}")
     model_id = resolve_model(model_id)
 
-    os.environ["LAMDIS_BEDROCK_MODEL_ID"] = model_id
+    os.environ["NFS_BEDROCK_MODEL_ID"] = model_id
     # Raise the daily-call limit floor so a stale env var doesn't cap the
-    # session at 500. The user can override LAMDIS_LLM_DAILY_LIMIT explicitly
+    # session at 500. The user can override NFS_LLM_DAILY_LIMIT explicitly
     # for tighter budgets.
-    cur_limit = int(os.environ.get("LAMDIS_LLM_DAILY_LIMIT", "0") or 0)
+    cur_limit = int(os.environ.get("NFS_LLM_DAILY_LIMIT", "0") or 0)
     if cur_limit < PER_RUN_DAILY_LIMIT_FLOOR:
-        os.environ["LAMDIS_LLM_DAILY_LIMIT"] = str(PER_RUN_DAILY_LIMIT_FLOOR)
+        os.environ["NFS_LLM_DAILY_LIMIT"] = str(PER_RUN_DAILY_LIMIT_FLOOR)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
     emit_log = EmitLog()
@@ -214,9 +214,9 @@ def run_one(
     # most refresh attempts skip because the previous call hasn't
     # returned yet. Cap matches local Windows pacing so each LLM
     # refresh window has time to complete. Override via the
-    # LAMDIS_TICK_RATE env var (per-process); 0 disables.
+    # NFS_TICK_RATE env var (per-process); 0 disables.
     try:
-        _tick_rate_cap = float(os.environ.get("LAMDIS_TICK_RATE", "0"))
+        _tick_rate_cap = float(os.environ.get("NFS_TICK_RATE", "0"))
     except ValueError:
         _tick_rate_cap = 0.0
     _min_tick_interval = (1.0 / _tick_rate_cap) if _tick_rate_cap > 0 else 0.0
@@ -290,7 +290,7 @@ def run_one(
                 f.flush()
             # Tick-rate cap: pace the loop so on faster hardware the
             # simulation doesn't outrun Bedrock. No-op when the cap is
-            # disabled (LAMDIS_TICK_RATE=0 / unset) or when this tick
+            # disabled (NFS_TICK_RATE=0 / unset) or when this tick
             # already took longer than the budget (large populations
             # naturally pace themselves).
             if _min_tick_interval > 0:

@@ -1691,8 +1691,8 @@ def _reproducibility(first_header: dict[str, Any] | None) -> list[str]:
     lines.append("```")
     lines.append("")
     lines.append("Recommended environment for AWS / Linux running on "
-                 "fast hardware: `LAMDIS_TICK_RATE=10 "
-                 "LAMDIS_BEDROCK_RPS=99` to match the cadence the "
+                 "fast hardware: `NFS_TICK_RATE=10 "
+                 "NFS_BEDROCK_RPS=99` to match the cadence the "
                  "original report was tuned on. Then validate and "
                  "regenerate the report:")
     lines.append("")

@@ -200,10 +200,10 @@ The fixed-substrate-with-LLM arm B (254,786 pop AUC) and the mute arm A (252,650
 
 | Arm | Initial cos | Terminal cos | Δ | Null mean | Null z |
 |---|---|---|---|---|---|
-| B | 0.000 | 0.916 | +0.916 | 0.963 | -3.70 |
-| D | 0.000 | 0.841 | +0.841 | 0.939 | -3.01 |
+| B | 0.000 | 0.916 | +0.916 | 0.964 | -3.86 |
+| D | 0.000 | 0.841 | +0.841 | 0.939 | -3.06 |
 | E | 0.000 | 0.912 | +0.912 | 0.960 | -0.99 |
-| F | 0.000 | 0.803 | +0.803 | 0.854 | -0.90 |
+| F | 0.000 | 0.803 | +0.803 | 0.854 | -0.91 |
 | G | 0.994 | 0.879 | -0.115 | 0.976 | -3.57 |
 
 The raw cosine `cos(mean_audio_attention, mean_llm_emission)` rises substantially in all LLM-using arms (Δ > 0.5 across the board). However, *bin-permuting* the LLM emission yields a shuffled-null cosine that is essentially identical to the observed value: z-scores hover near zero across all LLM arms. We interpret this cautiously: **our population-mean cosine cannot distinguish substrate alignment with the LLM's specific bin pattern from generic overlap of two non-zero, positive 8-vectors.** Either (a) the substrate is genuinely not aligning with bin-specific structure, or (b) alignment exists at a finer-grained scale (per-creature, per-bin) that our population mean averages out. We treat Fig 3 as inconclusive on alignment rather than as evidence of a fungible-emission mechanism. Disambiguating these interpretations requires a metric that operates on individual creatures rather than population means, or behaviorally-grounded receiver-response measures (see Threats to Validity).
@@ -663,7 +663,7 @@ python -m no_free_signal.experiments.parallel --confirm \
   --log-behavioral
 ```
 
-Recommended environment for AWS / Linux running on fast hardware: `LAMDIS_TICK_RATE=10 LAMDIS_BEDROCK_RPS=99` to match the cadence the original report was tuned on. Then validate and regenerate the report:
+Recommended environment for AWS / Linux running on fast hardware: `NFS_TICK_RATE=10 NFS_BEDROCK_RPS=99` to match the cadence the original report was tuned on. Then validate and regenerate the report:
 
 ```bash
 # 3. Audit gate (must exit 0 before report generation)

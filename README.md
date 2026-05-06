@@ -95,7 +95,7 @@ python -m no_free_signal.experiments.parallel \
     --per-run-cap 50000
 
 # expect ~$80-100 Bedrock + ~14h wall on a c7i.8xlarge equivalent
-# set LAMDIS_TICK_RATE=10 and LAMDIS_BEDROCK_RPS=99 if running on
+# set NFS_TICK_RATE=10 and NFS_BEDROCK_RPS=99 if running on
 # fast hardware where the simulation outruns Bedrock latency
 ```
 

@@ -35,7 +35,7 @@ from no_free_signal.llm_prose import (
 from no_free_signal.observation import RawObservation
 
 
-# Default Bedrock id; override via LAMDIS_BEDROCK_MODEL_ID.
+# Default Bedrock id; override via NFS_BEDROCK_MODEL_ID.
 # Bedrock requires cross-region inference profiles for on-demand invocation
 # of newer Claude models — the regional prefix routes the request to the
 # nearest active region. "us." for us-east-1 / us-west-2 etc.; if the
@@ -60,7 +60,7 @@ def _today_count() -> int:
 
 def _daily_limit() -> int:
     try:
-        return int(os.environ.get("LAMDIS_LLM_DAILY_LIMIT", "500"))
+        return int(os.environ.get("NFS_LLM_DAILY_LIMIT", "500"))
     except ValueError:
         return 500
 
@@ -193,7 +193,7 @@ def get_runtime_counters() -> dict[str, int]:
 # (b) this limiter — not by Bedrock's throttle response.
 def _bedrock_rps_limit() -> float:
     try:
-        return float(os.environ.get("LAMDIS_BEDROCK_RPS", "13.0"))
+        return float(os.environ.get("NFS_BEDROCK_RPS", "13.0"))
     except ValueError:
         return 13.0
 
@@ -344,7 +344,7 @@ class LLMController:
         self.personality = personality.strip() or "(no personality)"
         self.lambda_advisory = float(lambda_advisory)
         self.refresh_every_ticks = max(1, int(refresh_every_ticks))
-        self.model_id = model_id or os.environ.get("LAMDIS_BEDROCK_MODEL_ID", DEFAULT_MODEL_ID)
+        self.model_id = model_id or os.environ.get("NFS_BEDROCK_MODEL_ID", DEFAULT_MODEL_ID)
         self.creature_id = creature.individual_id
         self._world_ref = world_ref  # used for dialogue: broadcast / heard-by
         # Experiment hooks. ``emit_logger`` is called once per validated LLM
