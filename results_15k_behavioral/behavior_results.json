@@ -1,0 +1,2068 @@
+[
+  {
+    "threshold": 0.05,
+    "per_arm": {
+      "B": {
+        "n_runs": 20,
+        "n_heard_total": 133691,
+        "n_no_heard_total": 2397840,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 19,
+            "mean_diff": -0.025043901513020873,
+            "ci_lo": -0.04546723362967885,
+            "ci_hi": -0.003497299298250453,
+            "p_positive": 0.21052631578947367
+          },
+          "flee_strict": {
+            "n_seeds": 19,
+            "mean_diff": -0.0077282141615197825,
+            "ci_lo": -0.019358874594293515,
+            "ci_hi": 0.005594812419712425,
+            "p_positive": 0.15789473684210525
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 19,
+            "mean_diff": -0.016013652359551177,
+            "ci_lo": -0.07261872259602563,
+            "ci_hi": 0.03505806246585557,
+            "p_positive": 0.5789473684210527
+          },
+          "survived_next_25": {
+            "n_seeds": 20,
+            "mean_diff": -0.012942174325242209,
+            "ci_lo": -0.03287101723669984,
+            "ci_hi": 0.008400479464901528,
+            "p_positive": 0.35
+          },
+          "survived_next_50": {
+            "n_seeds": 20,
+            "mean_diff": -0.018351230351753296,
+            "ci_lo": -0.042905773160294446,
+            "ci_hi": 0.006267560839235927,
+            "p_positive": 0.4
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 20,
+            "mean_diff": 0.30569461222362565,
+            "ci_lo": -0.02906500264361006,
+            "ci_hi": 0.7373940257544891,
+            "p_positive": 0.55
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 20,
+            "mean_diff": -0.010936256591594376,
+            "ci_lo": -0.014862015337219935,
+            "ci_hi": -0.00721062773435249,
+            "p_positive": 0.1
+          },
+          "reproduced_next_50": {
+            "n_seeds": 20,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "C": {
+        "n_runs": 20,
+        "n_heard_total": 13456,
+        "n_no_heard_total": 852421,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 10,
+            "mean_diff": 0.08844999746396282,
+            "ci_lo": 0.029668373068835307,
+            "ci_hi": 0.16515424296576303,
+            "p_positive": 0.9
+          },
+          "flee_strict": {
+            "n_seeds": 10,
+            "mean_diff": 0.02571150324118209,
+            "ci_lo": 0.0026642150173401716,
+            "ci_hi": 0.06582306616982242,
+            "p_positive": 0.9
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 10,
+            "mean_diff": 0.2159412473273746,
+            "ci_lo": 0.12114864863503186,
+            "ci_hi": 0.3367327451005565,
+            "p_positive": 1.0
+          },
+          "survived_next_25": {
+            "n_seeds": 10,
+            "mean_diff": -0.20782354085590093,
+            "ci_lo": -0.2890535087935665,
+            "ci_hi": -0.1334874912529246,
+            "p_positive": 0.0
+          },
+          "survived_next_50": {
+            "n_seeds": 10,
+            "mean_diff": -0.23179584658012498,
+            "ci_lo": -0.3228635041398351,
+            "ci_hi": -0.14154546909209476,
+            "p_positive": 0.0
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 10,
+            "mean_diff": 2.4738113805015223,
+            "ci_lo": 0.2640280351948733,
+            "ci_hi": 4.795863451430752,
+            "p_positive": 0.7
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 10,
+            "mean_diff": -0.016419345297029996,
+            "ci_lo": -0.020776024782268077,
+            "ci_hi": -0.012215147993580953,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 10,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "D": {
+        "n_runs": 20,
+        "n_heard_total": 98202,
+        "n_no_heard_total": 2468272,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 19,
+            "mean_diff": -0.023507148750223136,
+            "ci_lo": -0.03814229860880101,
+            "ci_hi": -0.008715105525514822,
+            "p_positive": 0.21052631578947367
+          },
+          "flee_strict": {
+            "n_seeds": 19,
+            "mean_diff": -0.008623795818458426,
+            "ci_lo": -0.014182623568735243,
+            "ci_hi": -0.0037109696499903026,
+            "p_positive": 0.21052631578947367
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 19,
+            "mean_diff": 0.020712529875840942,
+            "ci_lo": -0.0014457903687450098,
+            "ci_hi": 0.04306704995193648,
+            "p_positive": 0.631578947368421
+          },
+          "survived_next_25": {
+            "n_seeds": 20,
+            "mean_diff": -0.016630808932157445,
+            "ci_lo": -0.04334482200572072,
+            "ci_hi": 0.002047992525939568,
+            "p_positive": 0.4
+          },
+          "survived_next_50": {
+            "n_seeds": 20,
+            "mean_diff": -0.021725002278954103,
+            "ci_lo": -0.04655075276617047,
+            "ci_hi": -0.0011676947011654947,
+            "p_positive": 0.4
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 20,
+            "mean_diff": 0.10200607570339612,
+            "ci_lo": -0.2901873120374637,
+            "ci_hi": 0.5528685444483333,
+            "p_positive": 0.45
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 20,
+            "mean_diff": -0.012504117087604948,
+            "ci_lo": -0.016555272618480363,
+            "ci_hi": -0.008372438104518895,
+            "p_positive": 0.05
+          },
+          "reproduced_next_50": {
+            "n_seeds": 20,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "E": {
+        "n_runs": 20,
+        "n_heard_total": 94134,
+        "n_no_heard_total": 2139234,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 19,
+            "mean_diff": -0.03247226302598087,
+            "ci_lo": -0.05585632977865996,
+            "ci_hi": -0.010647537031624812,
+            "p_positive": 0.2631578947368421
+          },
+          "flee_strict": {
+            "n_seeds": 19,
+            "mean_diff": -0.017650719623007044,
+            "ci_lo": -0.028437398001098877,
+            "ci_hi": -0.006846187442581072,
+            "p_positive": 0.15789473684210525
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 19,
+            "mean_diff": -0.024580632618887075,
+            "ci_lo": -0.09446833349356731,
+            "ci_hi": 0.04140401502473321,
+            "p_positive": 0.5263157894736842
+          },
+          "survived_next_25": {
+            "n_seeds": 20,
+            "mean_diff": -0.026209993508759234,
+            "ci_lo": -0.04382335137363501,
+            "ci_hi": -0.010573061586020605,
+            "p_positive": 0.2
+          },
+          "survived_next_50": {
+            "n_seeds": 20,
+            "mean_diff": -0.04654250212972236,
+            "ci_lo": -0.07102421437843842,
+            "ci_hi": -0.022629392816997267,
+            "p_positive": 0.2
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 20,
+            "mean_diff": 0.12722441494413728,
+            "ci_lo": -0.11754374914661288,
+            "ci_hi": 0.36933748401913247,
+            "p_positive": 0.65
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 20,
+            "mean_diff": -0.00879964097376166,
+            "ci_lo": -0.014651689288126343,
+            "ci_hi": -0.002435202760881254,
+            "p_positive": 0.2
+          },
+          "reproduced_next_50": {
+            "n_seeds": 20,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "F": {
+        "n_runs": 20,
+        "n_heard_total": 220963,
+        "n_no_heard_total": 3320654,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 19,
+            "mean_diff": -0.03135966057947693,
+            "ci_lo": -0.04530925552726657,
+            "ci_hi": -0.01816355319035171,
+            "p_positive": 0.10526315789473684
+          },
+          "flee_strict": {
+            "n_seeds": 19,
+            "mean_diff": -0.015225012445703828,
+            "ci_lo": -0.02358938648927598,
+            "ci_hi": -0.007809560327197835,
+            "p_positive": 0.05263157894736842
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 19,
+            "mean_diff": 0.009152662130405597,
+            "ci_lo": -0.044022346283986824,
+            "ci_hi": 0.05388297221949134,
+            "p_positive": 0.8421052631578947
+          },
+          "survived_next_25": {
+            "n_seeds": 20,
+            "mean_diff": -0.031620878638915675,
+            "ci_lo": -0.06614088771517965,
+            "ci_hi": -0.002311333014023376,
+            "p_positive": 0.5
+          },
+          "survived_next_50": {
+            "n_seeds": 20,
+            "mean_diff": -0.03414468113363174,
+            "ci_lo": -0.06866848268653085,
+            "ci_hi": -0.0014459857879246224,
+            "p_positive": 0.5
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 20,
+            "mean_diff": 0.040165115164251426,
+            "ci_lo": -0.3060477302226815,
+            "ci_hi": 0.4156550903510425,
+            "p_positive": 0.5
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 20,
+            "mean_diff": -0.013627587257530889,
+            "ci_lo": -0.018624788011122956,
+            "ci_hi": -0.00896905856956013,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 20,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "G": {
+        "n_runs": 20,
+        "n_heard_total": 119670,
+        "n_no_heard_total": 3478597,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 19,
+            "mean_diff": 0.007864736660531783,
+            "ci_lo": -0.008366452097086889,
+            "ci_hi": 0.023368871592667838,
+            "p_positive": 0.7368421052631579
+          },
+          "flee_strict": {
+            "n_seeds": 19,
+            "mean_diff": -0.008215848137275219,
+            "ci_lo": -0.0195451792088394,
+            "ci_hi": 0.002352551518995705,
+            "p_positive": 0.47368421052631576
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 19,
+            "mean_diff": 0.0989169786341336,
+            "ci_lo": 0.03919453744842738,
+            "ci_hi": 0.15165827011488442,
+            "p_positive": 0.7894736842105263
+          },
+          "survived_next_25": {
+            "n_seeds": 20,
+            "mean_diff": -0.0432211944854598,
+            "ci_lo": -0.05294362655051925,
+            "ci_hi": -0.03161974183211444,
+            "p_positive": 0.05
+          },
+          "survived_next_50": {
+            "n_seeds": 20,
+            "mean_diff": -0.05454624977215536,
+            "ci_lo": -0.06706616533295809,
+            "ci_hi": -0.040905499780855184,
+            "p_positive": 0.1
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 20,
+            "mean_diff": 0.47705342516951915,
+            "ci_lo": 0.27088872413921566,
+            "ci_hi": 0.6992090337003416,
+            "p_positive": 0.95
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 20,
+            "mean_diff": -0.011354509632385462,
+            "ci_lo": -0.016930780885456596,
+            "ci_hi": -0.004474865825884643,
+            "p_positive": 0.05
+          },
+          "reproduced_next_50": {
+            "n_seeds": 20,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      }
+    },
+    "pairwise": [
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.03123189602471038,
+        "ci_lo": -0.04593432873965364,
+        "ci_hi": -0.016860950966284493,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "flee_strict",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.0003663296344603567,
+        "ci_lo": -0.010981651600922451,
+        "ci_hi": 0.01081736364520745,
+        "p_a_gt_b": 0.4683
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.07854620448878022,
+        "ci_lo": -0.12231998239455955,
+        "ci_hi": -0.030211024088724073,
+        "p_a_gt_b": 0.001
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.02653988388484249,
+        "ci_lo": -0.00192279240552906,
+        "ci_hi": 0.050025195460964254,
+        "p_a_gt_b": 0.9673
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.032879513324444096,
+        "ci_lo": 0.007557025839234696,
+        "ci_hi": 0.055915875680083424,
+        "p_a_gt_b": 0.9929
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.3739617069442432,
+        "ci_lo": -0.7086150060964126,
+        "ci_hi": -0.016024340972323404,
+        "p_a_gt_b": 0.02
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.0011540519698475702,
+        "ci_lo": -0.01001575586006701,
+        "ci_hi": 0.00567532625886882,
+        "p_a_gt_b": 0.4243
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.03907095210200048,
+        "ci_lo": -0.05676668299724851,
+        "ci_hi": -0.020968239915435085,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "flee_strict",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.007035234411955645,
+        "ci_lo": -0.017523242661696057,
+        "ci_hi": 0.003783615905413166,
+        "p_a_gt_b": 0.0961
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.09018713914528102,
+        "ci_lo": -0.14621303028059587,
+        "ci_hi": -0.02496439134571297,
+        "p_a_gt_b": 0.0045
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.01138002672095354,
+        "ci_lo": -0.019521998003770007,
+        "ci_hi": 0.03890884068501831,
+        "p_a_gt_b": 0.7823
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.020208552301305784,
+        "ci_lo": -0.017212290109380787,
+        "ci_hi": 0.055096449516961764,
+        "p_a_gt_b": 0.8637
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.43776107789591506,
+        "ci_lo": -0.7692441916235293,
+        "ci_hi": -0.0688455124044591,
+        "p_a_gt_b": 0.0087
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.0022074254424951636,
+        "ci_lo": -0.011948021073482848,
+        "ci_hi": 0.00550390255711407,
+        "p_a_gt_b": 0.337
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": 0.0017508092102348906,
+        "ci_lo": -0.022174731741534344,
+        "ci_hi": 0.024600974786788358,
+        "p_a_gt_b": 0.5654
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "flee_strict",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.0009015687595808863,
+        "ci_lo": -0.01244074858427208,
+        "ci_hi": 0.009687685594426359,
+        "p_a_gt_b": 0.4469
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": 0.036548036926200574,
+        "ci_lo": -0.016624937928069138,
+        "ci_hi": 0.0869577792903535,
+        "p_a_gt_b": 0.9175
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.0036104807171039146,
+        "ci_lo": -0.03310484606283352,
+        "ci_hi": 0.022773966450048956,
+        "p_a_gt_b": 0.417
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.0030899949117014305,
+        "ci_lo": -0.034339111843532104,
+        "ci_hi": 0.02692141950728899,
+        "p_a_gt_b": 0.4293
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.2027329681769554,
+        "ci_lo": -0.6471463638170716,
+        "ci_hi": 0.2067830453201709,
+        "p_a_gt_b": 0.1765
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.0015817815591167475,
+        "ci_lo": -0.0048253485408153605,
+        "ci_hi": 0.001872478931811896,
+        "p_a_gt_b": 0.1738
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": -0.10547979026837473,
+        "ci_lo": -0.19229551743728435,
+        "ci_hi": -0.041405892333757154,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "flee_strict",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": -0.03284077107351892,
+        "ci_lo": -0.0746296567411957,
+        "ci_hi": -0.0077050986343212505,
+        "p_a_gt_b": 0.0001
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": -0.18786446499795428,
+        "ci_lo": -0.3127044463767821,
+        "ci_hi": -0.08543051127140157,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": 0.1800320703344991,
+        "ci_lo": 0.08006218716375331,
+        "ci_hi": 0.2756048419637126,
+        "p_a_gt_b": 1.0
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": 0.20209896310262854,
+        "ci_lo": 0.09654266490842534,
+        "ci_hi": 0.3024061164775599,
+        "p_a_gt_b": 0.9999
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": -2.051154855812371,
+        "ci_lo": -4.777437290153854,
+        "ci_hi": 0.6984806016980691,
+        "p_a_gt_b": 0.0687
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": 0.007471891750633771,
+        "ci_lo": 0.0015441216397615598,
+        "ci_hi": 0.013659873393968602,
+        "p_a_gt_b": 0.9928
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 10,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.04043191884283713,
+        "ci_lo": -0.06845197825394835,
+        "ci_hi": -0.009841105522663625,
+        "p_a_gt_b": 0.0052
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "flee_strict",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.00966195034192812,
+        "ci_lo": -0.026306836095710624,
+        "ci_hi": 0.009105629378158491,
+        "p_a_gt_b": 0.145
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 19,
+        "mean_diff_of_diffs": -0.12359905712290771,
+        "ci_lo": -0.21855887317625167,
+        "ci_hi": -0.029408314486923853,
+        "p_a_gt_b": 0.0056
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.01695138969400289,
+        "ci_lo": -0.0034026100035964234,
+        "ci_hi": 0.03709717882891014,
+        "p_a_gt_b": 0.9471
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.008022884917464052,
+        "ci_lo": -0.018857537284937824,
+        "ci_hi": 0.0351942593219433,
+        "p_a_gt_b": 0.7151
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": -0.3525634569521352,
+        "ci_lo": -0.6048270686989522,
+        "ci_hi": -0.08422547178317671,
+        "p_a_gt_b": 0.0059
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.0025711484778149557,
+        "ci_lo": -0.008360884575656966,
+        "ci_hi": 0.012475390646209679,
+        "p_a_gt_b": 0.694
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 20,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      }
+    ]
+  },
+  {
+    "threshold": 0.1,
+    "per_arm": {
+      "B": {
+        "n_runs": 20,
+        "n_heard_total": 20388,
+        "n_no_heard_total": 2511143,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 9,
+            "mean_diff": 0.04478541037049098,
+            "ci_lo": -0.060109911248863966,
+            "ci_hi": 0.19718383778707257,
+            "p_positive": 0.4444444444444444
+          },
+          "flee_strict": {
+            "n_seeds": 9,
+            "mean_diff": 0.038501791559411455,
+            "ci_lo": -0.029719423095782065,
+            "ci_hi": 0.14747041883865694,
+            "p_positive": 0.3333333333333333
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 9,
+            "mean_diff": 0.1888861644886476,
+            "ci_lo": 0.021343537777304994,
+            "ci_hi": 0.4681077666740102,
+            "p_positive": 0.8888888888888888
+          },
+          "survived_next_25": {
+            "n_seeds": 9,
+            "mean_diff": 0.010143975965082288,
+            "ci_lo": -0.026087563202163464,
+            "ci_hi": 0.04967146187568708,
+            "p_positive": 0.4444444444444444
+          },
+          "survived_next_50": {
+            "n_seeds": 9,
+            "mean_diff": 0.011386646089329948,
+            "ci_lo": -0.04606182931805612,
+            "ci_hi": 0.07028712429734171,
+            "p_positive": 0.5555555555555556
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 9,
+            "mean_diff": 0.6717740594789918,
+            "ci_lo": -0.262248887038081,
+            "ci_hi": 1.9828709425219604,
+            "p_positive": 0.5555555555555556
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 9,
+            "mean_diff": -0.008750877547320455,
+            "ci_lo": -0.015319015026440258,
+            "ci_hi": -0.002936758814744034,
+            "p_positive": 0.1111111111111111
+          },
+          "reproduced_next_50": {
+            "n_seeds": 9,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "C": {
+        "n_runs": 20,
+        "n_heard_total": 1243,
+        "n_no_heard_total": 864634,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 5,
+            "mean_diff": 0.011025934572640495,
+            "ci_lo": -0.08326429921784803,
+            "ci_hi": 0.06773350805620801,
+            "p_positive": 0.8
+          },
+          "flee_strict": {
+            "n_seeds": 5,
+            "mean_diff": -0.0048598809078915315,
+            "ci_lo": -0.01685419778746766,
+            "ci_hi": 0.006409618386462307,
+            "p_positive": 0.6
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 5,
+            "mean_diff": 0.11168963463580084,
+            "ci_lo": 0.04183181759902664,
+            "ci_hi": 0.1606134256771416,
+            "p_positive": 0.8
+          },
+          "survived_next_25": {
+            "n_seeds": 5,
+            "mean_diff": -0.2666431998390615,
+            "ci_lo": -0.4883795111871292,
+            "ci_hi": -0.13073923070706897,
+            "p_positive": 0.0
+          },
+          "survived_next_50": {
+            "n_seeds": 5,
+            "mean_diff": -0.23021952220981207,
+            "ci_lo": -0.38162900652061416,
+            "ci_hi": -0.11359630056526833,
+            "p_positive": 0.0
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 5,
+            "mean_diff": 0.8049560518284995,
+            "ci_lo": -1.1173549305516712,
+            "ci_hi": 2.9532589957392825,
+            "p_positive": 0.4
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 5,
+            "mean_diff": -0.01940242158792967,
+            "ci_lo": -0.025069684283610026,
+            "ci_hi": -0.010823277654045635,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 5,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "D": {
+        "n_runs": 20,
+        "n_heard_total": 7757,
+        "n_no_heard_total": 2558717,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 12,
+            "mean_diff": -0.04394771004630509,
+            "ci_lo": -0.08196873364659195,
+            "ci_hi": -0.005479787211428207,
+            "p_positive": 0.25
+          },
+          "flee_strict": {
+            "n_seeds": 12,
+            "mean_diff": -0.010226383456675647,
+            "ci_lo": -0.018682009174074855,
+            "ci_hi": -0.002581050018751797,
+            "p_positive": 0.3333333333333333
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 12,
+            "mean_diff": 0.05384917054974786,
+            "ci_lo": 0.01090526146663745,
+            "ci_hi": 0.08870579256028799,
+            "p_positive": 0.9166666666666666
+          },
+          "survived_next_25": {
+            "n_seeds": 12,
+            "mean_diff": -0.007295746355958162,
+            "ci_lo": -0.058785183247152116,
+            "ci_hi": 0.036459500983181674,
+            "p_positive": 0.5
+          },
+          "survived_next_50": {
+            "n_seeds": 12,
+            "mean_diff": -0.008919348464901864,
+            "ci_lo": -0.056946458170531435,
+            "ci_hi": 0.03578536744502459,
+            "p_positive": 0.3333333333333333
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 12,
+            "mean_diff": -0.21941022798220988,
+            "ci_lo": -0.8508020212915488,
+            "ci_hi": 0.4256423741626565,
+            "p_positive": 0.4166666666666667
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 12,
+            "mean_diff": -0.010332599896283238,
+            "ci_lo": -0.015702149371561554,
+            "ci_hi": -0.005661214490139811,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 12,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "E": {
+        "n_runs": 20,
+        "n_heard_total": 10065,
+        "n_no_heard_total": 2223303,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 12,
+            "mean_diff": 0.022961166546749505,
+            "ci_lo": -0.07505436513265963,
+            "ci_hi": 0.17311216689910228,
+            "p_positive": 0.25
+          },
+          "flee_strict": {
+            "n_seeds": 12,
+            "mean_diff": -0.01757119368804917,
+            "ci_lo": -0.035909783334661396,
+            "ci_hi": -0.002196770231353466,
+            "p_positive": 0.16666666666666666
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 12,
+            "mean_diff": 0.12867220435254656,
+            "ci_lo": 0.02609004186340627,
+            "ci_hi": 0.29293431074664955,
+            "p_positive": 0.75
+          },
+          "survived_next_25": {
+            "n_seeds": 12,
+            "mean_diff": -0.008897182378476679,
+            "ci_lo": -0.05367330080427952,
+            "ci_hi": 0.03170922370654214,
+            "p_positive": 0.5
+          },
+          "survived_next_50": {
+            "n_seeds": 12,
+            "mean_diff": -0.0006330585858839768,
+            "ci_lo": -0.06414622401421603,
+            "ci_hi": 0.06387686306077454,
+            "p_positive": 0.4166666666666667
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 12,
+            "mean_diff": -0.7027290615199911,
+            "ci_lo": -1.1307100637755214,
+            "ci_hi": -0.24157313921621312,
+            "p_positive": 0.25
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 12,
+            "mean_diff": -0.010744981725887707,
+            "ci_lo": -0.013704007968995112,
+            "ci_hi": -0.008115558378640052,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 12,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "F": {
+        "n_runs": 20,
+        "n_heard_total": 28613,
+        "n_no_heard_total": 3513004,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 12,
+            "mean_diff": -0.012688021800937373,
+            "ci_lo": -0.04604451648623057,
+            "ci_hi": 0.024358520705024356,
+            "p_positive": 0.3333333333333333
+          },
+          "flee_strict": {
+            "n_seeds": 12,
+            "mean_diff": -0.0075844579081937565,
+            "ci_lo": -0.01367317852843296,
+            "ci_hi": -0.00309298859528806,
+            "p_positive": 0.16666666666666666
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 12,
+            "mean_diff": 0.08423394393910263,
+            "ci_lo": 0.053041501332178435,
+            "ci_hi": 0.1229160891223675,
+            "p_positive": 0.9166666666666666
+          },
+          "survived_next_25": {
+            "n_seeds": 12,
+            "mean_diff": -0.03456101195206537,
+            "ci_lo": -0.11829770627340974,
+            "ci_hi": 0.03947026083069441,
+            "p_positive": 0.5833333333333334
+          },
+          "survived_next_50": {
+            "n_seeds": 12,
+            "mean_diff": -0.040832362136383964,
+            "ci_lo": -0.15745978936547475,
+            "ci_hi": 0.05851322450057953,
+            "p_positive": 0.5833333333333334
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 12,
+            "mean_diff": -1.8078458443603986,
+            "ci_lo": -6.01167619911741,
+            "ci_hi": 1.063968630751455,
+            "p_positive": 0.5
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 12,
+            "mean_diff": 0.020597165252189974,
+            "ci_lo": -0.009111110515844586,
+            "ci_hi": 0.07763920247497286,
+            "p_positive": 0.08333333333333333
+          },
+          "reproduced_next_50": {
+            "n_seeds": 12,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "G": {
+        "n_runs": 20,
+        "n_heard_total": 15783,
+        "n_no_heard_total": 3582484,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 16,
+            "mean_diff": 0.03988271316404939,
+            "ci_lo": -0.043476507985508304,
+            "ci_hi": 0.12877049740010968,
+            "p_positive": 0.75
+          },
+          "flee_strict": {
+            "n_seeds": 16,
+            "mean_diff": -0.0012311453074815974,
+            "ci_lo": -0.042121121463911344,
+            "ci_hi": 0.04472281463331234,
+            "p_positive": 0.625
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 16,
+            "mean_diff": 0.1863454691898549,
+            "ci_lo": -0.10102117170512415,
+            "ci_hi": 0.4227137118484107,
+            "p_positive": 0.75
+          },
+          "survived_next_25": {
+            "n_seeds": 16,
+            "mean_diff": -0.03338921749137161,
+            "ci_lo": -0.08084668069617394,
+            "ci_hi": 0.009275920294428176,
+            "p_positive": 0.4375
+          },
+          "survived_next_50": {
+            "n_seeds": 16,
+            "mean_diff": -0.015953200230356533,
+            "ci_lo": -0.07122689046358045,
+            "ci_hi": 0.03991172118895176,
+            "p_positive": 0.4375
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 16,
+            "mean_diff": -0.26831964560809357,
+            "ci_lo": -1.1249620373217293,
+            "ci_hi": 0.37854084938545873,
+            "p_positive": 0.4375
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 16,
+            "mean_diff": -0.02210989363415424,
+            "ci_lo": -0.025652702934578886,
+            "ci_hi": -0.018772405015448954,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 16,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      }
+    },
+    "pairwise": [
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.11407722757968969,
+        "ci_lo": -0.24619943160843663,
+        "ci_hi": 0.00838434147421098,
+        "p_a_gt_b": 0.0334
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "flee_strict",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.024949718899067285,
+        "ci_lo": -0.0874498514188625,
+        "ci_hi": 0.02527185635323571,
+        "p_a_gt_b": 0.2077
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.2857811884301581,
+        "ci_lo": -0.5114160615592719,
+        "ci_hi": -0.11268254207383208,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.02284138975782566,
+        "ci_lo": -0.07086235459915606,
+        "ci_hi": 0.09880007004571384,
+        "p_a_gt_b": 0.7174
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.0075136818346161795,
+        "ci_lo": -0.11577290171359778,
+        "ci_hi": 0.08131327840543466,
+        "p_a_gt_b": 0.4645
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.19471113239158883,
+        "ci_lo": -0.6124755690363867,
+        "ci_hi": 1.068526666107456,
+        "p_a_gt_b": 0.6632
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.010573933974629204,
+        "ci_lo": 0.00553474687963402,
+        "ci_hi": 0.015282696989570963,
+        "p_a_gt_b": 1.0
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.09329186216084395,
+        "ci_lo": -0.227937688684404,
+        "ci_hi": 0.024612578847700496,
+        "p_a_gt_b": 0.069
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "flee_strict",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.03328060905461505,
+        "ci_lo": -0.09444598598795174,
+        "ci_hi": 0.01708799558988321,
+        "p_a_gt_b": 0.1173
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.2588656587726988,
+        "ci_lo": -0.4830597378345022,
+        "ci_hi": -0.07673150063513666,
+        "p_a_gt_b": 0.0015
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.004048922734376473,
+        "ci_lo": -0.10065359202635871,
+        "ci_hi": 0.08912697531415946,
+        "p_a_gt_b": 0.4726
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.03082053532995102,
+        "ci_lo": -0.17260601267584644,
+        "ci_hi": 0.09065090532224596,
+        "p_a_gt_b": 0.3339
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -1.626527665866109,
+        "ci_lo": -5.995019212025455,
+        "ci_hi": 1.7918349315896576,
+        "p_a_gt_b": 0.2263
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.04418255974207838,
+        "ci_lo": 0.01057318137338645,
+        "ci_hi": 0.10737677602496108,
+        "p_a_gt_b": 1.0
+      },
+      {
+        "a": "F",
+        "b": "G",
+        "desc": "context-randomized LLM vs random noise (cleanest internal control)",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": -0.06674894409559555,
+        "ci_lo": -0.2321518109293036,
+        "ci_hi": 0.03171107845511118,
+        "p_a_gt_b": 0.2857
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "flee_strict",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": -0.04483290299271466,
+        "ci_lo": -0.15577936510378942,
+        "ci_hi": 0.01768682988086837,
+        "p_a_gt_b": 0.3162
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": -0.10926592729285929,
+        "ci_lo": -0.4047655280605514,
+        "ci_hi": 0.06097889643602483,
+        "p_a_gt_b": 0.3338
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": -0.03605383067533343,
+        "ci_lo": -0.09389632930546184,
+        "ci_hi": 0.009044050916927207,
+        "p_a_gt_b": 0.075
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": -0.02573252365337747,
+        "ci_lo": -0.087206570695056,
+        "ci_hi": 0.027425286534222174,
+        "p_a_gt_b": 0.1975
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": -0.7207757412183772,
+        "ci_lo": -2.5744610697327985,
+        "ci_hi": 0.6512451418793324,
+        "p_a_gt_b": 0.2201
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": -0.0014697037570895934,
+        "ci_lo": -0.005019774850691813,
+        "ci_hi": 0.0022516441001047376,
+        "p_a_gt_b": 0.2158
+      },
+      {
+        "a": "D",
+        "b": "B",
+        "desc": "evolvable substrate vs frozen substrate, both with LLM",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 9,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": -0.02203237241385696,
+        "ci_lo": -0.14047443031091553,
+        "ci_hi": 0.10535675277462295,
+        "p_a_gt_b": 0.3547
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "flee_strict",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": -0.0014612458325038065,
+        "ci_lo": -0.019670358775186872,
+        "ci_hi": 0.0168490967467508,
+        "p_a_gt_b": 0.4261
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": -0.020432303833706134,
+        "ci_lo": -0.09553059528481792,
+        "ci_hi": 0.06861316582156353,
+        "p_a_gt_b": 0.305
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": 0.234167155862719,
+        "ci_lo": -0.040951701904279256,
+        "ci_hi": 0.5574485273773746,
+        "p_a_gt_b": 0.9397
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": 0.18565347033606405,
+        "ci_lo": -0.019353886614093915,
+        "ci_hi": 0.4049536265055627,
+        "p_a_gt_b": 0.9436
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": -1.1540478029436307,
+        "ci_lo": -4.185602399249341,
+        "ci_hi": 2.0278333855599273,
+        "p_a_gt_b": 0.2052
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": 0.012595601193982935,
+        "ci_lo": 0.004795794079961492,
+        "ci_hi": 0.017716129412127694,
+        "p_a_gt_b": 1.0
+      },
+      {
+        "a": "D",
+        "b": "C",
+        "desc": "full stack vs no-emitter control",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 4,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.04313456787965515,
+        "ci_lo": -0.2370715648670817,
+        "ci_hi": 0.19264106685835564,
+        "p_a_gt_b": 0.3278
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "flee_strict",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.03323989647096668,
+        "ci_lo": -0.10254708496346762,
+        "ci_hi": 0.019613418734505273,
+        "p_a_gt_b": 0.1437
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.19804494750238225,
+        "ci_lo": -0.5045862930723692,
+        "ci_hi": 0.1171964403868023,
+        "p_a_gt_b": 0.1062
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.024166673840411646,
+        "ci_lo": -0.06843509692772809,
+        "ci_hi": 0.11463397637984553,
+        "p_a_gt_b": 0.6994
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.004420970097309704,
+        "ci_lo": -0.11399330772320301,
+        "ci_hi": 0.11700112781090058,
+        "p_a_gt_b": 0.536
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": -0.29417530933524544,
+        "ci_lo": -1.2170869029310596,
+        "ci_hi": 0.9776618947863028,
+        "p_a_gt_b": 0.2758
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.011417865536237881,
+        "ci_lo": 0.008500315688343212,
+        "ci_hi": 0.014176341155040113,
+        "p_a_gt_b": 1.0
+      },
+      {
+        "a": "E",
+        "b": "G",
+        "desc": "scrambled LLM vs noise",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 11,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      }
+    ]
+  },
+  {
+    "threshold": 0.25,
+    "per_arm": {
+      "B": {
+        "n_runs": 20,
+        "n_heard_total": 85,
+        "n_no_heard_total": 2531446,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 2,
+            "mean_diff": 0.24192261217355285,
+            "ci_lo": 0.08944299065127319,
+            "ci_hi": 0.3944022336958325,
+            "p_positive": 1.0
+          },
+          "flee_strict": {
+            "n_seeds": 2,
+            "mean_diff": 0.25781313323035027,
+            "ci_lo": 0.021330460000031373,
+            "ci_hi": 0.4942958064606691,
+            "p_positive": 1.0
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 2,
+            "mean_diff": 0.6176421513268651,
+            "ci_lo": 0.2149278607433485,
+            "ci_hi": 1.0203564419103817,
+            "p_positive": 1.0
+          },
+          "survived_next_25": {
+            "n_seeds": 2,
+            "mean_diff": 0.321732267223222,
+            "ci_lo": 0.022313845538809274,
+            "ci_hi": 0.6211506889076347,
+            "p_positive": 1.0
+          },
+          "survived_next_50": {
+            "n_seeds": 2,
+            "mean_diff": 0.17091427491785355,
+            "ci_lo": 0.022690614109564883,
+            "ci_hi": 0.31913793572614224,
+            "p_positive": 1.0
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 2,
+            "mean_diff": 3.76870706381348,
+            "ci_lo": 2.979628056342203,
+            "ci_hi": 4.557786071284757,
+            "p_positive": 1.0
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 2,
+            "mean_diff": -1.1657708887737126e-05,
+            "ci_lo": -0.007776149756868425,
+            "ci_hi": 0.007752834339092951,
+            "p_positive": 0.5
+          },
+          "reproduced_next_50": {
+            "n_seeds": 2,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "C": {
+        "n_runs": 20,
+        "n_heard_total": 0,
+        "n_no_heard_total": 865877,
+        "metrics": {}
+      },
+      "D": {
+        "n_runs": 20,
+        "n_heard_total": 12,
+        "n_no_heard_total": 2566462,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 3,
+            "mean_diff": 0.0585836950193197,
+            "ci_lo": -0.11162723044183538,
+            "ci_hi": 0.1460102311225337,
+            "p_positive": 0.6666666666666666
+          },
+          "flee_strict": {
+            "n_seeds": 3,
+            "mean_diff": -0.007384414569006539,
+            "ci_lo": -0.011198935653155525,
+            "ci_hi": -0.004285512263205464,
+            "p_positive": 0.0
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 3,
+            "mean_diff": 0.1786050858830053,
+            "ci_lo": 0.008218207804609658,
+            "ci_hi": 0.2654814086469222,
+            "p_positive": 1.0
+          },
+          "survived_next_25": {
+            "n_seeds": 3,
+            "mean_diff": 0.05003504442726866,
+            "ci_lo": -0.3527572481376058,
+            "ci_hi": 0.5860372195922507,
+            "p_positive": 0.3333333333333333
+          },
+          "survived_next_50": {
+            "n_seeds": 3,
+            "mean_diff": -0.16575795137300825,
+            "ci_lo": -0.24512325263237086,
+            "ci_hi": -0.12181613840950106,
+            "p_positive": 0.0
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 3,
+            "mean_diff": -4.436596433325229,
+            "ci_lo": -14.475571619760998,
+            "ci_hi": 1.2337324814338464,
+            "p_positive": 0.3333333333333333
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 3,
+            "mean_diff": -0.0036502709157562535,
+            "ci_lo": -0.004708957391196117,
+            "ci_hi": -0.0018638778780467235,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 3,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "E": {
+        "n_runs": 20,
+        "n_heard_total": 25,
+        "n_no_heard_total": 2233343,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 4,
+            "mean_diff": 0.03181889750292771,
+            "ci_lo": -0.11353883498555498,
+            "ci_hi": 0.238264328685227,
+            "p_positive": 0.5
+          },
+          "flee_strict": {
+            "n_seeds": 4,
+            "mean_diff": 0.008747622186199247,
+            "ci_lo": -0.012053810587302307,
+            "ci_hi": 0.048676510186158234,
+            "p_positive": 0.25
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 4,
+            "mean_diff": 0.17053856152624394,
+            "ci_lo": 0.001278116239959929,
+            "ci_hi": 0.4187519255996171,
+            "p_positive": 0.75
+          },
+          "survived_next_25": {
+            "n_seeds": 4,
+            "mean_diff": 0.0911254756896018,
+            "ci_lo": 0.007272100950650784,
+            "ci_hi": 0.17497885042855282,
+            "p_positive": 1.0
+          },
+          "survived_next_50": {
+            "n_seeds": 4,
+            "mean_diff": 0.021726940009848247,
+            "ci_lo": -0.09708425283650232,
+            "ci_hi": 0.23510487665682578,
+            "p_positive": 0.25
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 4,
+            "mean_diff": -1.3632262100256585,
+            "ci_lo": -6.477471009312724,
+            "ci_hi": 2.0714700970669275,
+            "p_positive": 0.5
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 4,
+            "mean_diff": -0.009861876011773373,
+            "ci_lo": -0.01423166286551121,
+            "ci_hi": -0.006297264209756655,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 4,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "F": {
+        "n_runs": 20,
+        "n_heard_total": 256,
+        "n_no_heard_total": 3541361,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 2,
+            "mean_diff": 0.02221258832564023,
+            "ci_lo": -0.02108708094350882,
+            "ci_hi": 0.06551225759478928,
+            "p_positive": 0.5
+          },
+          "flee_strict": {
+            "n_seeds": 2,
+            "mean_diff": -0.004041441962988675,
+            "ci_lo": -0.0069667190297008,
+            "ci_hi": -0.0011161648962765506,
+            "p_positive": 0.0
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 2,
+            "mean_diff": 0.12106831565564877,
+            "ci_lo": 0.08643127656206237,
+            "ci_hi": 0.15570535474923516,
+            "p_positive": 1.0
+          },
+          "survived_next_25": {
+            "n_seeds": 2,
+            "mean_diff": -0.06040827741088825,
+            "ci_lo": -0.21612197509582914,
+            "ci_hi": 0.09530542027405264,
+            "p_positive": 0.5
+          },
+          "survived_next_50": {
+            "n_seeds": 2,
+            "mean_diff": -0.024468281791420327,
+            "ci_lo": -0.17585142362191647,
+            "ci_hi": 0.12691486003907582,
+            "p_positive": 0.5
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 2,
+            "mean_diff": 0.28232377457002295,
+            "ci_lo": 0.20994135945804038,
+            "ci_hi": 0.3547061896820055,
+            "p_positive": 1.0
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 2,
+            "mean_diff": -0.007565154614102684,
+            "ci_lo": -0.008716231569650536,
+            "ci_hi": -0.006414077658554831,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 2,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      },
+      "G": {
+        "n_runs": 20,
+        "n_heard_total": 18,
+        "n_no_heard_total": 3598249,
+        "metrics": {
+          "flee_3tick": {
+            "n_seeds": 3,
+            "mean_diff": 0.1475660859442921,
+            "ci_lo": -0.10005795544874267,
+            "ci_hi": 0.30620763927454814,
+            "p_positive": 0.6666666666666666
+          },
+          "flee_strict": {
+            "n_seeds": 3,
+            "mean_diff": 0.04336535925415091,
+            "ci_lo": -0.05244522445623326,
+            "ci_hi": 0.234044554901784,
+            "p_positive": 0.3333333333333333
+          },
+          "predator_dist_delta_t3": {
+            "n_seeds": 3,
+            "mean_diff": 0.43434488212354355,
+            "ci_lo": 0.09907483962557591,
+            "ci_hi": 0.7111057102001865,
+            "p_positive": 1.0
+          },
+          "survived_next_25": {
+            "n_seeds": 3,
+            "mean_diff": -0.12256161705976898,
+            "ci_lo": -0.2630598887541299,
+            "ci_hi": -0.008218594055388273,
+            "p_positive": 0.0
+          },
+          "survived_next_50": {
+            "n_seeds": 3,
+            "mean_diff": -0.11721386903340465,
+            "ci_lo": -0.24324317259838568,
+            "ci_hi": 0.10990100874680986,
+            "p_positive": 0.3333333333333333
+          },
+          "energy_delta_next_10": {
+            "n_seeds": 3,
+            "mean_diff": 3.2752065343809207,
+            "ci_lo": 0.9822160914856678,
+            "ci_hi": 6.964686151218754,
+            "p_positive": 1.0
+          },
+          "food_eaten_next_10": {
+            "n_seeds": 3,
+            "mean_diff": -0.02477258741358188,
+            "ci_lo": -0.026157761660789137,
+            "ci_hi": -0.023781377535407936,
+            "p_positive": 0.0
+          },
+          "reproduced_next_50": {
+            "n_seeds": 3,
+            "mean_diff": 0.0,
+            "ci_lo": 0.0,
+            "ci_hi": 0.0,
+            "p_positive": 0.0
+          }
+        }
+      }
+    },
+    "pairwise": [
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "flee_3tick",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": 0.07312009779175938,
+        "ci_lo": -0.09053834288453713,
+        "ci_hi": 0.24142603982600344,
+        "p_a_gt_b": 0.7423
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "flee_strict",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": -0.0985391966143921,
+        "ci_lo": -0.23833006716498947,
+        "ci_hi": 0.040304317029942485,
+        "p_a_gt_b": 0.25
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "predator_dist_delta_t3",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": -0.1414763689820853,
+        "ci_lo": -0.4489900690027025,
+        "ci_hi": 0.16640656902134632,
+        "p_a_gt_b": 0.2509
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "survived_next_25",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": -0.08238724032305401,
+        "ci_lo": -0.0896973593834759,
+        "ci_hi": -0.07495624411745072,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "survived_next_50",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": -0.06121350456509615,
+        "ci_lo": -0.23171714715631092,
+        "ci_hi": 0.11290870952123283,
+        "p_a_gt_b": 0.2442
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "energy_delta_next_10",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": -11.689563928483535,
+        "ci_lo": -21.440257770979755,
+        "ci_hi": -1.9466675220868728,
+        "p_a_gt_b": 0.0
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "food_eaten_next_10",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": 0.022144876051435378,
+        "ci_lo": 0.021779784182763218,
+        "ci_hi": 0.022514745166501836,
+        "p_a_gt_b": 1.0
+      },
+      {
+        "a": "D",
+        "b": "G",
+        "desc": "LLM emissions vs matched random noise: behavioral effect",
+        "metric": "reproduced_next_50",
+        "n_seeds_paired": 2,
+        "mean_diff_of_diffs": 0.0,
+        "ci_lo": 0.0,
+        "ci_hi": 0.0,
+        "p_a_gt_b": 0.0
+      }
+    ]
+  }
+]

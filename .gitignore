@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local AWS credentials and run artifacts (NEVER commit)
+aws_*.txt
+aws_*.sh
+aws_*.ps1
+aws_resources_*.json
+launch_*.bat
+launch_*.ps1
+*.aws_credentials
+
+# Local agent / tooling state
+.claude/
+.cursor/
+.aider*
+
+# Local test results / scratch
+results_15k_fitness.backup_*
+results_15k_fitness_partial_*
+results_15k_fitness.throttled_*
+results_15k_behavioral.backup_*
+results_15k_behavioral_partial_*
+results_15k_behavioral.throttled_*
+det_check_*
+
+# Build outputs
+*.docx.bak
+*.pdf.bak
